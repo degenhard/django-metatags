@@ -1,0 +1,3 @@
+<meta type="description" content="{% if meta_tags.description %}{{ meta_tags.description }}{% else %}{% include "metatags/default_description.html" %}{% endif %}">
+<meta type="keywords" content="{% if meta_tags.keywords %}{{ meta_tags.keywords }}{% else %}{% include "metatags/default_keywords.html" %}{% endif %}">
+<meta type="robots" content="{% if meta_tags.robots %}{{ meta_tags.robots }}{% else %}{% include "metatags/default_robots.html" %}{% endif %}">
